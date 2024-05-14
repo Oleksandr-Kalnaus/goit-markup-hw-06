@@ -1167,6 +1167,8 @@ button {
 }
 }
 
+/* ======= MOBILE MENU ======= */
+
 @media screen and (max-width: 767px) {
     .mobile-menu {
         position: fixed;
@@ -1220,10 +1222,15 @@ button {
     }
 
     .mobile-menu-nav {
-        margin-bottom: auto;
+        margin-bottom: 168px;
     }
 
-    .mobilem-nav-link{
+    .mobile-nav-list {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .mobile-nav-link{
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
@@ -1238,6 +1245,13 @@ button {
     .mobile-contacts {
         margin-bottom: 48px;
     }
+    .mobile-contacts-list {
+
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
     .mobile-contacts-link {
         font-weight: 500;
         font-size: 20px;
